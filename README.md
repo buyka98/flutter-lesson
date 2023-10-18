@@ -4,9 +4,9 @@
 ### Week 1: 2023.10.21 -> 2023.10.27 => Stateless flutter app
   - Flutter concept
   - Dart basic & null safety
-  - Basic widgets
+  - Material widgets
+  - Routing
   - Stateless vs Stateful widget
-  - Routing 
   - UI зурж демо апп эхлүүлэх
 ### Week 2: 2023.10.28 -> 2023.11.03 => Stateful flutter app 
   - State management
