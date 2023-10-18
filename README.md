@@ -32,4 +32,12 @@
   - 1 арга сонгон chat хуудас хийх
   - Notification
   - Permission
-  - Upload demo app to AppStore & PlayStore 
+  - Upload demo app to AppStore & PlayStore
+
+## Хичээл эхлэхийн өмнөх шаардлага
+  - Flutter суулгасан байх
+  - ```flutter doctor``` command-р амжилттай суулгасанг шалгах
+  - Dart-н ойлголттой байх
+  - AppStore болон PlayStore account-тай байх (демо апп upload хийх)
+
+
