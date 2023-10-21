@@ -23,5 +23,5 @@
 - Dart-г сонирхох боломжтой [dart.dev](https://dart.dev/language/collections)
 
 # Хичээлийн бичлэг 
-## Хичээлийн бичлэгээ Youtube рүү ороод үзээрээ. 
+#### Хичээлийн бичлэгээ Youtube рүү ороод үзээрэй. 
 - [Lesson1 on youtube](https://www.youtube.com/watch?v=uonKN446IP0)
