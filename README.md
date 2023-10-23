@@ -1,25 +1,26 @@
 # flutter-lesson
 
 ## Flutter basics & case based course
-### Week 1: 2023.10.21 -> 2023.10.27 => Stateless flutter app
+### Week 1: 2023.10.21 -> 2023.10.27 => Flutter app UI
   - Flutter concept
   - Dart basic & null safety
   - Material widgets 
-  - Routing credential-aa shalgah 
+  - Routing credential-aa shalgah
+  - Routing with deeplink
   - Stateless vs Stateful widget
-  - UI зурж демо апп эхлүүлэх
-### Week 2: 2023.10.28 -> 2023.11.03 => Stateful flutter app 
-  - State management
   - App cycle
-  - Packages
+  - Useful Packages
   - Firebase setup
-  - UI зурсан апп дээрээ дасгал хийх
-### Week 3: 2023.11.04 -> 2023.11.10 => Data & api
+  - UI зурж демо апп эхлүүлэх
+    
+### Week 2: 2023.10.28 -> 2023.11.03 => Data & api 
+  - State management (complex жишээн дээр ажиллах хүсэлтэй байгаа)
   - Model generation
   - Networking
   - Local storage
   - Firebase тэй холбогдон ажиллах апп хийх
-### Week 4: 2023.11.11 -> 2023.11.17 => case based 1: Login & Profile screen 
+
+### Week 3: 2023.11.04 -> 2023.11.10 => case based 1: Login & Profile screen
   - Form & validations
   - Toast
   - Global key usage
@@ -27,8 +28,9 @@
   - User agent
   - Login & Profile хуудас хийх
   - 1 хэрэглэгч 1 утас ашиглах шийдэл ярилцах
-### Week 5: 2023.11.18 -> 2023.11.25 => case based 2 : Chat screen
-  - Chat хийх аргууд web socket 
+
+### Week 4: 2023.11.11 -> 2023.11.14 => case based 2 : Chat screen
+  - Chat хийх аргууд web socket (realtime аппийн ажиллагааг сурах хүсэлтэй байгаа)
   - 1 арга сонгон chat хуудас хийх
   - Notification
   - Permission 
@@ -40,10 +42,11 @@
   - Dart-н ойлголттой байх
   - AppStore болон PlayStore account-тай байх (демо апп upload хийх)
 
-nemeh 
-routing delgerengui 
-- deeplink routing 
-state managent complex
-realtime 
+## Хичээлийн дуусахад олж авах чадварууд
+
+##### Хичээлийн төгсгөлд нүүр, дэлгэрэнгүй, хэрэглэгч, чат гэсэн хэсгүүдээс бүрдсэн Апп хийн PlayStore болон AppStore дээр байршуулна. Back-end ийг Firebase ашиглан хийнэ.Flutter дээр түгээмэл ашиглагддаг widget, package, function уудыг суралцана.
+    
+
+
 
 
