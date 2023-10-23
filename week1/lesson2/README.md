@@ -15,6 +15,8 @@
 - Routing дээр дасгал ажиллах 20мин
 - Демо апп дээр дэлгэрэнгүй хуудас эхлүүлэх 30мин
     - [Figma](https://www.figma.com/file/f7iHsNQBImiATle3BsM6yH/flutter%2Flesson1?type=design&node-id=0%3A1&mode=design&t=v7PYjElpxywwJoxm-1&fbclid=IwAR1Q1nxjp70NjkpjJH32OYwuivXHJIzT4UhtgzIHMYAp1RZpZlsMP4fw1c4)
+    - BottomNavBar хийх
+    - Carousel Slider хийх
 - Useful packages list танилцуулах 10 мин
 
 
