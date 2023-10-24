@@ -1,14 +1,14 @@
 # Хичээл 2
 - Гэрт өгсөн даалгаврыг ярилцах 15мин
   - Даалгаврын жишээ код end link tavih 
-- Ppt lesson 2 30мин [Google Slides](https://docs.google.com/presentation/d/1XBGfgLlQnij5LTl6mO_RiIuJqHelOwXpy3JFWlCnVDw/edit#slide=id.g2916af88af0_0_26)
+- Ppt lesson 2 30мин [Google Slides](https://docs.google.com/presentation/d/1XrNfMpReRKNMUQdHVVnhumclRlF2RUt0Vsfm3y0cQo8/edit?usp=sharing)
 - Хичээл 1 дээр багтаагүй зүйлс (Material widgets-тэй танилцах )
     - Stateless, statefull widget tailbarlah
     - Container, SizedBox, ColoredBox
     - Column, Row
-    - Text, Button, Icon
-    - AppBar
-    - ListView
+    - ListView,
+    - Tabbar
+    - BottomNavbar
 - Responsive Flutter 
     - Media Query 
     - Expanded widget
