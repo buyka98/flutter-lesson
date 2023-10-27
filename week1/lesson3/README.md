@@ -3,17 +3,7 @@
   - Даалгаврын жишээ код end link tavih 
 - Ppt lesson 2 30мин [Google Slides](https://docs.google.com/presentation/d/1XrNfMpReRKNMUQdHVVnhumclRlF2RUt0Vsfm3y0cQo8/edit?usp=sharing)
 - Go_router
-  - [Medium](# Хичээл 2
-- Гэрт өгсөн даалгаврыг ярилцах 15мин
-  - Даалгаврын жишээ код end link tavih 
-- Ppt lesson 2 30мин [Google Slides](https://docs.google.com/presentation/d/1XrNfMpReRKNMUQdHVVnhumclRlF2RUt0Vsfm3y0cQo8/edit?usp=sharing)
-- Хичээл 1 дээр багтаагүй зүйлс (Material widgets-тэй танилцах )
-    - Stateless, statefull widget tailbarlah
-    - Container, SizedBox, ColoredBox
-    - Column, Row
-    - ListView,
-    - Tabbar
-    - BottomNavbar
+  - [Medium](https://medium.com/@buykabuyanaa_24000/use-go-router-for-your-router-deeplink-and-authentication-47c29b9e56b2)
 - Responsive Flutter 
     - Media Query 
     - Expanded widget
