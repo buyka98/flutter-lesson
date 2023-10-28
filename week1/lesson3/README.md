@@ -7,4 +7,4 @@
 - Responsive Flutter 
     - responsive app function танилцуудах
 - Todo app design зурах
-  - [image](week1/lesson3/todo-app.jpg)
+  - ![image](./todo-app.jpg)
