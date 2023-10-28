@@ -1,12 +1,10 @@
 # Хичээл 2
 - Гэрт өгсөн даалгаврыг ярилцах 5мин
   - Даалгаврын жишээ код end link tavih 
-- Ppt lesson 2 30мин [Google Slides](https://docs.google.com/presentation/d/1XrNfMpReRKNMUQdHVVnhumclRlF2RUt0Vsfm3y0cQo8/edit?usp=sharing)
-- Go_router
+- Go_router 50мин
   - [Medium](https://medium.com/@buykabuyanaa_24000/use-go-router-for-your-router-deeplink-and-authentication-47c29b9e56b2)
 - Responsive Flutter 
-    - Media Query 
-    - Expanded widget
+    - responsive app function uguh 
 - Routing дээр дасгал ажиллах 20мин
 - Демо апп дээр дэлгэрэнгүй хуудас эхлүүлэх 30мин
     - [Figma](https://www.figma.com/file/f7iHsNQBImiATle3BsM6yH/flutter%2Flesson1?type=design&node-id=0%3A1&mode=design&t=v7PYjElpxywwJoxm-1&fbclid=IwAR1Q1nxjp70NjkpjJH32OYwuivXHJIzT4UhtgzIHMYAp1RZpZlsMP4fw1c4)
