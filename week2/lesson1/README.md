@@ -15,7 +15,7 @@
      flutter pub add firebase_core
      flutterfire configure
      ```
-    - Activate unanonymous sign in
+    - Activate unanonymous sign in [configure link](https://firebase.google.com/docs/auth/flutter/start)
     - Add firestore to your app
     - 
 
