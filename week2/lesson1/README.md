@@ -16,8 +16,7 @@
      flutterfire configure
      ```
     - Activate unanonymous sign in [configure link](https://firebase.google.com/docs/auth/flutter/start)
-    - Add firestore to your app
-    - 
+    - Add firestore to your app [link](https://firebase.flutter.dev/docs/firestore/usage/)
 
 # Хичээлийн бичлэг 
 #### Хичээлийн бичлэгээ Youtube рүү ороод үзээрэй. 
