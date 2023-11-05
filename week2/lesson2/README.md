@@ -39,7 +39,7 @@
         Map<String, dynamic> toJson() => _$TodoItemModelToJson(this);
     ```
   - Run ```flutter pub run build_runner watch --delete-conflicting-outputs``` to generate todo_item_model.g.dart
-
+  - Freezed example [medium](https://tomicriedel.medium.com/flutter-freezed-the-complete-crashcourse-c942e9aa2428)
 ## HTTP Request 20 min
 - To make internet request need permission for Android
   ```
