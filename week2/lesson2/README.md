@@ -1,4 +1,4 @@
-# Хичээл 5 (2023.11.04)
+# Хичээл 5 (2023.11.05)
 - HomeWork Q&A 10min
 ## Intro to State Management 40min [here](./state_management.md)
 ## Model generation with [json_serializable: ^6.7.1](https://pub.dev/packages/json_serializable) 30min    [read more](https://developer.school/tutorials/flutter-using-json_serializable-to-serialise-dart-classes)
