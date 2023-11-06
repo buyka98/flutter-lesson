@@ -1,10 +1,16 @@
 # Хичээл 6 (2023.11.07)
-- HomeWork Q&A 10min
-## Intro to State Management 40min [here](./state_management.md)
+## Login screen UI 20min
+ - TextEditingController
+ - Form
+ - TextFormField
 
-### Work on Todo app with Bloc 20min
+## Login with Firebase phone authentication 20min
 
-### HomeWork 
-create dummy app using dio or http with bloc [dummy api](https://dummy.restapiexample.com)
+## 1 хэрэглэгч 1 утас арга 20min
+
+## Өмнөхөө бататгах асуулт хариулт 60min
+
+## HomeWork
+Remember me feature [shared_preferences: ^2.2.2](https://pub.dev/packages/shared_preferences) сан ашиглан хийх
 
 ## Хичээлийн бичлэг Youtube рүү ороод үзээрэй. [Link](https://youtu.be/qupmzh4OZJ4)
