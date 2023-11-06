@@ -126,3 +126,5 @@
 
 ### HomeWork 
 create dummy app using dio or http with bloc [dummy api](https://dummy.restapiexample.com)
+
+## Хичээлийн бичлэг Youtube рүү ороод үзээрэй. [Link](https://youtu.be/qupmzh4OZJ4)
