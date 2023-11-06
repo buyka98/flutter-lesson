@@ -8,3 +8,4 @@
     - [responsive app function танилцуулах](./responsive.dart)
 - Todo app design зурах
   - ![image](./todo-app.jpg)
+## Хичээлийн бичлэг Youtube рүү ороод үзээрэй [Link](https://youtu.be/LfJGTXVyCOc)
