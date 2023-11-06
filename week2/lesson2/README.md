@@ -121,7 +121,16 @@
       sharedStorage.setInt('count', newCount);
     }
   ```
-
+- Initialize cache in main.dart
+    ```
+    void main() async {
+      WidgetsFlutterBinding.ensureInitialized();
+      Cache cache = Cache();
+      runApp(app);
+    }
+    ```
+- Use it in screen ``` cache.getCount()``` ``` cache.writeCount(1)```
+    
 ### Work on Todo app with Bloc 20min
 
 ### HomeWork 
