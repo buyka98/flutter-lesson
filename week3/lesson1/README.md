@@ -2,10 +2,11 @@
 ## Login screen UI 20min
  - TextEditingController
  - TextFormField
- - Pinput widget [pinput: ^3.0.1](https://pub.dev/packages/pinput)
-<img src = "https://github.com/buyka98/flutter-lesson/assets/92565391/75cae050-446b-4687-8b09-e3fa971dc27f" width = 200>
-<img src = "https://github.com/buyka98/flutter-lesson/assets/92565391/132a2bb7-7ae5-4f16-97d5-b376fa47fa07" width = 200>
-<img src = "https://github.com/buyka98/flutter-lesson/assets/92565391/b1bf4e83-7d6c-4521-a1b6-6523851c0320" width = 200>
+ - LoginScreen
+ - RegisterScreen
+<img src = "https://github.com/buyka98/flutter-lesson/assets/92565391/3baf15d8-e974-4a2c-8262-55326c504045" width = 200>
+<img src = "https://github.com/buyka98/flutter-lesson/assets/92565391/6e716ee5-82fd-49a2-bc24-a1513fc58e02" width = 200>
+<img src = "[https://github.com/buyka98/flutter-lesson/assets/92565391/b1bf4e83-7d6c-4521-a1b6-6523851c0320](https://github.com/buyka98/flutter-lesson/assets/92565391/023dc308-9207-43c8-89e7-21bd2887f1eb)" width = 200>
 
 ## Login with Firebase phone authentication 20min
 
