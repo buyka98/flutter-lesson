@@ -132,6 +132,7 @@
 - Use it in screen ``` cache.getCount()``` ``` cache.writeCount(1)```
     
 ### Work on Todo app with Bloc 20min
+- bloc with auto route [link](https://stackoverflow.com/a/73218471)
 
 ### HomeWork 
 create dummy app using dio or http with bloc [dummy api](https://dummy.restapiexample.com)
