@@ -1,5 +1,5 @@
 # Хичээл 6 (2023.11.07)
-## Login screen UI 20min
+## Login screen UI 40min
  - Read about forms & input [here](https://docs.flutter.dev/cookbook/forms/text-input)
  - Draw below UI using flutter
 
@@ -63,11 +63,71 @@
                        ),
  ```
 
-## Login with Firebase phone authentication 20min
+## 1 хэрэглэгч 1 утас арга 10min
+- Mobile token
 
-## 1 хэрэглэгч 1 утас арга 20min
+## Өмнөхөө бататгах асуулт хариулт 30min
+- Bloc
+- Firebase
 
-## Өмнөхөө бататгах асуулт хариулт 60min
+## Login using firebase auth 40min
+
+### Firebase codes
+
+- Firebase Register with email & password 
+```
+final credential = await auth.createUserWithEmailAndPassword(
+        email: email,
+        password: password,
+      );
+```
+- Firebase Login with email & password
+```
+      final credential = await FirebaseAuth.instance.signInWithEmailAndPassword(email: email, password: password);
+```
+- Firebase Logout 
+```
+      await auth.signOut();
+```
+
+### Bloc codes 
+
+- Auth states
+```
+class AuthLoading extends AuthState {}
+
+class AuthFailed extends AuthState {
+  final String? error;
+  AuthFailed({this.error});
+}
+
+class RegisterSuccess extends AuthState {}
+
+class LoginSuccess extends AuthState {}
+
+class LogOutSuccess extends AuthState {}
+```
+- We can access auth_cubit globally by creating it's privider in main.dart
+```
+BlocProvider(
+      create: (context) => AuthCubit(),
+      child: MaterialApp()
+      );
+```
+- By using blocBuilder we can decide what screen to show depending on authState
+```
+      BlocBuilder(
+        bloc: context.watch<AuthCubit>(),
+        builder: (context, AuthState state) {
+          if (state is RegisterSuccess || state is LoginSuccess) {
+            return mainScreen();
+          } else if (state is AuthLoading) {
+            return LoadingScreen();
+          } else {
+            return LoginScreen();
+          }
+        });
+```
 
 ## HomeWork
 Remember me feature [shared_preferences: ^2.2.2](https://pub.dev/packages/shared_preferences) сан ашиглан хийх
