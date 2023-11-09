@@ -1,5 +1,6 @@
 # Хичээл 7 (2023.11.11)
 ## Homework review 15min
+Жишээ код [github](https://github.com/buyka98/alpha23/tree/main/lib/screens/auth)
 
 ## Profile screen 45min
 ### Profile screen UI
