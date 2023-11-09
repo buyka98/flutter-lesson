@@ -132,5 +132,6 @@ BlocProvider(
 ## HomeWork
 Remember me feature [shared_preferences: ^2.2.2](https://pub.dev/packages/shared_preferences) сан ашиглан хийх
 [Өмнөх хичээлийн Local storage сэдвийг харах](https://github.com/buyka98/flutter-lesson/blob/main/week2/lesson2/README.md) 
+Жишээ код [github](https://github.com/buyka98/alpha23/tree/main/lib/screens/auth)
 
 ## Хичээлийн бичлэг Youtube рүү ороод үзээрэй. [Link](https://youtu.be/qupmzh4OZJ4)
