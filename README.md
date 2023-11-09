@@ -23,7 +23,7 @@
 ### Week 3: 2023.11.04 -> 2023.11.10 => case based 1: Login & Profile screen
   - Form & validations
   - Toast
-  - Global key usage
+  - Form key usage
   - Mobile token
   - User agent
   - Login & Profile хуудас хийх
