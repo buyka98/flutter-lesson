@@ -3,7 +3,11 @@
 Жишээ код [github](https://github.com/buyka98/alpha23/tree/main/lib/screens/auth)
 
 ## Notification 2 цаг 
-### Local notification 
+Апп ажилж байгаа, нээлттэй эсвэл хаалттайгаас хамааруулан Notification ирэхэд хийх үйлдлүүд өөр2 байна. Нийт 3 өөр төлөвтэй байна. 
+<img width="986" alt="Screenshot 2023-11-09 at 17 55 21" src="https://github.com/buyka98/flutter-lesson/assets/92565391/c8c0b658-123f-4c1a-b936-43db9b266908">
+
+### Push notification with FCM
+- 
 
 ### Global 
 
