@@ -24,7 +24,8 @@ final notificationSettings = await FirebaseMessaging.instance.requestPermission(
 
 - Get notificationo token 
 ```
-final fcmToken = await FirebaseMessaging.instance.getToken()
+final fcmToken = await FirebaseMessaging.instance.getToken();
+final apnsToken = await FirebaseMessaging.instance.getAPNSToken();
 ```
 
 - Test notification
