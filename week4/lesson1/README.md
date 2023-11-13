@@ -1,17 +1,53 @@
-# flutter-lesson
+# Хичээл 7 (2023.11.11)
+## Homework review 15min
 
-## Flutter basics & case based course
-### Week 1: 2023.10.19 -> 2023.10.25 => Flutter intro, UI
-  - Routing 
-  - UI зуруулах демо апп хийх
-### Week 2: 2023.10.26 -> 2023.11.01 => Flutter connect to backend 1
-  - state management
-  - local storage
-  - firebase setup
-  - UI зурсан апп дээрээ дасгал хийх
-### Week 3: 2023.11.02 -> 2023.11.08 => Flutter connect to backend 2
-  - firebase тэй холбогдон ажиллах апп хийх
-### Week 4: 2023.11.09 -> 2023.11.15 => case based 1: Login & Profile screen 
-### Week 5: 2023.11.16 -> 2023.11.23 => case based 2 : Chat screen
-  - notification
-  - store upload
+Жишээ код [github](https://github.com/buyka98/alpha23/tree/main/lib/screens/auth)
+
+## Notification 2 цаг 
+
+Апп ажилж байгаа, нээлттэй эсвэл хаалттайгаас хамааруулан Notification ирэхэд хийх үйлдлүүд өөр2 байна. Нийт 3 өөр төлөвтэй байна. 
+<img width="986" alt="Screenshot 2023-11-09 at 17 55 21" src="https://github.com/buyka98/flutter-lesson/assets/92565391/c8c0b658-123f-4c1a-b936-43db9b266908">
+
+### Push notification with FCM 
+  - [Firebase document](https://firebase.google.com/docs/cloud-messaging/flutter/client)
+  - [FlutterFire document](https://firebase.flutter.dev/docs/messaging/apple-integration/)
+
+- Add firebase messaging to your app dependency 
+```
+flutter pub add firebase_messaging
+```
+
+- Request permission
+```
+final notificationSettings = await FirebaseMessaging.instance.requestPermission(provisional: true);
+```
+
+- Get notificationo token 
+```
+final fcmToken = await FirebaseMessaging.instance.getToken();
+final apnsToken = await FirebaseMessaging.instance.getAPNSToken();
+```
+
+- Test notification
+<img width="1019" alt="Screenshot 2023-11-10 at 11 02 43" src="https://github.com/buyka98/flutter-lesson/assets/92565391/74a2fb25-e8d7-4b43-a4af-fb324664f640">
+
+
+
+## Profile screen 45min
+### Profile screen UI
+- Use form
+- Show toast
+- Show loader
+
+### Connect to Firebase 
+- api
+- Bloc
+
+## User agent сан танилцуулах 15min
+- User agent-г back-end рүү явуулж ямар утас, ямар version ашиглагдаж байгааг харах боломжтой. 
+
+
+## HomeWork
+Өөрсдийн аппын UI болон ажиллагааг тест хийх AppStore, PlayStore оруулахад бэлдэх
+
+## Хичээлийн бичлэг Youtube рүү ороод үзээрэй. [Link](https://youtu.be/qupmzh4OZJ4)
