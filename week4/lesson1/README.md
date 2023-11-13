@@ -1,8 +1,6 @@
 # Хичээл 7 (2023.11.11)
 ## Homework review 15min
 
-Жишээ код [github](https://github.com/buyka98/alpha23/tree/main/lib/screens/auth)
-
 ## Notification 2 цаг 
 
 Апп ажилж байгаа, нээлттэй эсвэл хаалттайгаас хамааруулан Notification ирэхэд хийх үйлдлүүд өөр2 байна. Нийт 3 өөр төлөвтэй байна. 
