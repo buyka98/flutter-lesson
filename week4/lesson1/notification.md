@@ -25,6 +25,35 @@ final notificationSettings = await FirebaseMessaging.instance.requestPermission(
 final fcmToken = await FirebaseMessaging.instance.getToken();
 final apnsToken = await FirebaseMessaging.instance.getAPNSToken();
 ```
+- set foreground notification options 
+if alert is set true notification will shown in app
+```
+      await _firebase.setForegroundNotificationPresentationOptions(
+        alert: true,
+        badge: false,
+        sound: true,
+      );
+```
+- Хэрэглэгч app terminated, background үед ирсэн notification дээр дарсан үед автоматаар app нээгдэх болно. App нээгдэхэд харуулах үйлдлийг энд хийнэ. 
+```
+      FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
+        String payload0;
+        payload0 = jsonEncode(message.data).toString();
+        print("payload 222 ${payload0}");
+        // todo handleNotification
+      });
+```
+- Foreground notification ирсэнг сонсон үйлдэл хийнэ.
+```
+ FirebaseMessaging.onMessage.listen((RemoteMessage message) {
+        String? payload;
+        payload = jsonEncode(message.data).toString();
+        RemoteNotification? notification = message.notification;
+        if (notification != null) {
+         // todo show local notification 
+        }
+      });
+```
 ### Flutter local notification for foreground notification
 [flutter_local_notifications: ^16.1.0](https://pub.dev/packages/flutter_local_notifications)
 Android утсан дээр foreground notification харагддаггүй учир flutter_local_notification санг хэрэглэнэ. 
