@@ -41,9 +41,8 @@ if alert is set true notification will shown in app
 - Хэрэглэгч app terminated, background үед ирсэн notification дээр дарсан үед автоматаар app нээгдэх болно. App нээгдэхэд харуулах үйлдлийг энд хийнэ. 
 ```
       FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message) {
-        String payload0;
-        payload0 = jsonEncode(message.data).toString();
-        print("payload 222 ${payload0}");
+        print("message ${message.notification?.title}");
+        print("message ${message.notification?.body}");
         // todo handleNotification
       });
 ```
