@@ -89,6 +89,12 @@ Future<AndroidNotificationChannel> _initLocalNotification(flutterLocalNotificati
     return channel;
 }
 ```
+### initiliaze
+```
+  final FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin = FlutterLocalNotificationsPlugin();
+  AndroidNotificationChannel channel = await _initLocalNotification(flutterLocalNotificationsPlugin);
+
+```
 ### Test notification from firebase 
 [firebase messaging link](https://console.firebase.google.com/u/0/project/proj1021/notification/compose)
 <img width="1019" alt="Screenshot 2023-11-10 at 11 02 43" src="https://github.com/buyka98/flutter-lesson/assets/92565391/74a2fb25-e8d7-4b43-a4af-fb324664f640">
