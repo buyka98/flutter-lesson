@@ -50,8 +50,8 @@ if alert is set true notification will shown in app
 - Foreground notification ирсэнг сонсон үйлдэл хийнэ.
 ```
  FirebaseMessaging.onMessage.listen((RemoteMessage message) {
-        String? payload;
-        payload = jsonEncode(message.data).toString();
+      print("foreground message ${message.notification?.title}");
+      print("foreground message ${message.notification?.body}");
         RemoteNotification? notification = message.notification;
         if (notification != null) {
          // todo show local notification 
