@@ -1,17 +1,16 @@
-# Хичээл 7 (2023.11.11)
+# Хичээл 7 (2023.11.16)
 ## Homework review 15min
 
-## Notification 2 цаг 
-[Notification.md](./notification.md)
+## Chat Screen 90min
+### Database
+<img width="1138" alt="Screenshot 2023-11-16 at 10 30 30" src="https://github.com/buyka98/flutter-lesson/assets/92565391/b3d863c0-c6e1-43d0-95d8-146800a87d58">
 
-
-## Profile screen 45min
-### Profile screen UI
+### Chat Screen UI 30min
 - Use form
 - Show toast
 - Show loader
 
-### Connect to Firebase 
+### Connect to Firebase 30min
 - api
 - Bloc
 
