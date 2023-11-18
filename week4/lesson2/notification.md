@@ -21,7 +21,7 @@ flutter pub add firebase_messaging
 
 - Request permission
 ```
-final notificationSettings = await FirebaseMessaging.instance.requestPermission(provisional: true);
+final notificationSettings = await FirebaseMessaging.instance.requestPermission();
 ```
 
 - Get notificationo token 
