@@ -10,6 +10,10 @@
   - [Firebase document](https://firebase.google.com/docs/cloud-messaging/flutter/client)
   - [FlutterFire document](https://firebase.flutter.dev/docs/messaging/apple-integration/)
 
+### Generate SHA1 for firebase 
+```
+keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
+```
 - Add firebase messaging to your app dependency 
 ```
 flutter pub add firebase_messaging
